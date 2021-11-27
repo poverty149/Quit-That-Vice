@@ -1,0 +1,53 @@
+:root{
+    --color-main:#FE7F9C;
+    --color-text:white;
+    --color-sec:#FCBACB;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+@font-face {
+    font-family: 'Allure';
+    src: url('adelline\ personal\ use\ only.ttf');
+}
+@font-face {
+    font-family: 'quotes';
+    src: url('TropicalAsianDemoRegular-11V0.ttf');
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-text);
+    color: var(--color-main);
+    
+}
+.quote{
+    background-color: var(--color-main);
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+    height: 250px;
+    justify-content: center;
+    font-family: 'quotes';
+    font-size: 50px;
+}
+.tasks{
+    background-color: #F25278;
+    width:200px;
+    color: var(--color-text);
+    border-radius: 20px;
+}
+.grid-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem;
+}
+.heading{
+    color: #F25278;
+    
+    
+}
+.head{
+    font-family: 'Allure';
+    font-size: 40px;
+}
